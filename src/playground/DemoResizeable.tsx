@@ -3,7 +3,6 @@ import {
   ResizablePanel,
   ResizablePanelGroup,
 } from "@/components/Resizeable"
-import { h3 } from "@/components/Typography"
 
 export function DemoResizeable() {
   return (
