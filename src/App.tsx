@@ -6,7 +6,7 @@ import {
 import { useState } from "react"
 
 import { Select, SelectItem } from "@nextui-org/react"
-import DemoLayout from "./playground/DemoLayout"
+import DemoLayout from "./demos/DemoLayout"
 
 const components = [
   {

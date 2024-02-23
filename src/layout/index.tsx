@@ -1,19 +1,18 @@
 import { Toaster } from "@/components/Toast"
+import { useTheme } from "@/providers/theme-provider"
 import Footer from "./footer"
 import Navbar from "./nav"
-import Providers from "./providers"
 
 export default function Layout({ children }: { children: React.ReactNode }) {
+  const { theme } = useTheme()
   return (
-    <Providers>
-      <div className="relative flex min-h-screen flex-col">
-        <Navbar />
-        <main className="container mx-auto max-w-7xl flex-1 px-5 py-10">
-          {children}
-        </main>
-        <Footer />
-      </div>
-      <Toaster closeButton />
-    </Providers>
+    <div className="relative flex min-h-screen flex-col">
+      <Navbar />
+      <main className="container mx-auto max-w-7xl flex-1 px-5 py-10">
+        {children}
+      </main>
+      <Footer />
+      <Toaster closeButton theme={theme} />
+    </div>
   )
 }
