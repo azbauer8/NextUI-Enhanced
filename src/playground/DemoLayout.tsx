@@ -3,6 +3,8 @@ import { Button, Link } from "@nextui-org/react"
 import DemoCarousel from "./DemoCarousel"
 import { DemoCmdk } from "./DemoCmdk"
 import DemoDrawer from "./DemoDrawer"
+import DemoLandingHeader from "./DemoLandingHeader"
+import DemoPageHeader from "./DemoPageHeader"
 import { DemoResizeable } from "./DemoResizeable"
 import { DemoSheet } from "./DemoSheet"
 import DemoToast from "./DemoToast"
@@ -28,6 +30,8 @@ export default function DemoLayout({ selected }: { selected: Component }) {
       {selected.value === "toast" && <DemoToast />}
       {selected.value === "carousel" && <DemoCarousel />}
       {selected.value === "resizeable" && <DemoResizeable />}
+      {selected.value === "landing-header" && <DemoLandingHeader />}
+      {selected.value === "page-header" && <DemoPageHeader />}
       {selected.value === "typography" && <DemoTypography />}
     </div>
   )

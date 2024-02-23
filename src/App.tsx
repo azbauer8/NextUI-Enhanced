@@ -12,37 +12,56 @@ const components = [
   {
     label: "Sheet",
     value: "sheet",
-    source: "",
+    source:
+      "https://github.com/azbauer8/NextUI-Enhanced/blob/main/src/components/Sheet.tsx",
   },
   {
     label: "Drawer",
     value: "drawer",
-    source: "",
+    source:
+      "https://github.com/azbauer8/NextUI-Enhanced/blob/main/src/components/Drawer.tsx",
   },
   {
     label: "Command Menu",
     value: "cmdk",
-    source: "",
+    source:
+      "https://github.com/azbauer8/NextUI-Enhanced/blob/main/src/components/Cmdk.tsx",
   },
   {
     label: "Toast",
     value: "toast",
-    source: "",
+    source:
+      "https://github.com/azbauer8/NextUI-Enhanced/blob/main/src/components/Toast.tsx",
   },
   {
     label: "Carousel",
     value: "carousel",
-    source: "",
+    source:
+      "https://github.com/azbauer8/NextUI-Enhanced/blob/main/src/components/Carousel.tsx",
   },
   {
     label: "Resizeable",
     value: "resizeable",
-    source: "",
+    source:
+      "https://github.com/azbauer8/NextUI-Enhanced/blob/main/src/components/Resizeable.tsx",
+  },
+  {
+    label: "Landing Header",
+    value: "landing-header",
+    source:
+      "https://github.com/azbauer8/NextUI-Enhanced/blob/main/src/components/LandingHeader.tsx",
+  },
+  {
+    label: "Page Header",
+    value: "page-header",
+    source:
+      "https://github.com/azbauer8/NextUI-Enhanced/blob/main/src/components/PageHeader.tsx",
   },
   {
     label: "Typography",
     value: "typography",
-    source: "",
+    source:
+      "https://github.com/azbauer8/NextUI-Enhanced/blob/main/src/components/Typography.tsx",
   },
 ]
 
